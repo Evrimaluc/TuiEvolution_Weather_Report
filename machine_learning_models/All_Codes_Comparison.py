@@ -10,7 +10,7 @@ from sklearn.svm import SVC
 from sklearn.metrics import f1_score
 import matplotlib.pyplot as plt
 
-data = pd.read_csv(r"Makine Öğrenmesi\Proje Belgeleri\Kodlar\weather_classification_data.csv")
+data = pd.read_csv(r".\weather_classification_data.csv")
 
 categorical_columns = ['Cloud Cover', 'Season', 'Location', 'Weather Type']
 label_encoders = {}
